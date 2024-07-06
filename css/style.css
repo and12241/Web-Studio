@@ -119,16 +119,25 @@ img{
 .link.select{
     display: inline-block;
     color: var(--accent-text-color);
+    height: 72px;
+    text-align: center;
+    border-bottom: 4px solid #404BBF;
+    border-radius: 2px;
 }
 .link{
     color: var(--primary-text-color);
-    transition: 0.5s;
+    transition: 0.25s;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 72px;
     font-weight: 500;
+    display: inline-block;
 }
 .link:hover, .link:focus{
     color: var(--accent-text-color);
+    height: 72px;
+    text-align: center;
+    border-bottom: 4px solid #404BBF;
+    border-radius: 2px;
 }
 /*               hero                   */
 .hero{
